@@ -1,0 +1,33 @@
+{
+  "name": "tars-cli-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -i temp index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkyin/tars-cli-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkyin/tars-cli-server/issues"
+  },
+  "homepage": "https://github.com/vkyin/tars-cli-server#readme",
+  "dependencies": {
+    "@tars/deploy": "^2.0.3",
+    "@tars/stream": "^2.0.1",
+    "byt": "^0.1.0",
+    "extract-zip": "^1.6.7",
+    "mkdirp": "^0.5.1",
+    "uuid": "^3.3.2",
+    "ws": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "standard": "^12.0.1"
+  }
+}

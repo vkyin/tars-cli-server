@@ -1,0 +1,6 @@
+module Command {
+    struct TarsDeploy{
+        0 require string serverName;
+        1 require vector<byte> filebuff;
+    };
+};
