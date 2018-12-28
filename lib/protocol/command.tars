@@ -1,6 +1,21 @@
 module Command {
     struct TarsDeploy{
         0 require string serverName;
-        1 require vector<byte> filebuff;
+        1 require vector<byte> codeZipPkg;
+    };
+
+    struct TarsPatch{
+        0 require string appName;
+        1 require string serverName;
+        2 require vector<byte> codeZipPkg;
+    };
+
+    struct SaveFile {
+        0 require string fileName;
+        1 require vector<byte> filebuff;  
+    };
+
+    struct Print {
+        0 require string data;
     };
 };
